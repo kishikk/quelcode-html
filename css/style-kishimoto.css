@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* すべて共通*/
+html, body {
+    font-size: 16px;
+    font-family:'Noto Sans JP', sans-serif;
+}
+
+/* header */
+.header {
+    height: 60px;
+    margin-bottom: 10px;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    margin-left: 55px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+}
+.logo {
+    height: 29px;
+}
+.nav {
+    list-style: none;
+}
+.nav li {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 200px;
+}
