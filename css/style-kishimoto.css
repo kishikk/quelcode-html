@@ -111,10 +111,33 @@ body {
 }
 
 /* keyvisual */
-.mainvisual {
-    width: 100vw;
-    position: absolute;
-    margin: 20px auto 30px auto;
+.keyvisual {
+    max-width: 100%;
+    height: 250px;
+    margin: 0 auto 30px auto;
+    position: relative;
+}
+.mainimage {
+    width: 100%;
     height: 250px;
     object-fit: cover;
+}
+.maintitle {
+    color: #fff;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.subt {
+    font-size: 20px;
+    line-height: 28px;
+}
+.maint {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: bold;
 }
