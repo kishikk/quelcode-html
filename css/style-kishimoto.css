@@ -183,7 +183,8 @@ body {
 }
 .MainContent .SNS ul:first-child:before {
     content: "Share";
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: bold;
     line-height: 1.5;
     color: #333333;
 }
@@ -251,4 +252,26 @@ body {
     height: 16px;
     margin: 0 0 0 11px;
     vertical-align: -2px;
+}
+.guide {
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    margin: 0 -10px;
+    padding: 0 10px;
+}
+.guide a {
+    text-decoration: none;
+}
+.guide a:hover {
+    text-decoration: underline;
+}
+.guide-left {
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+.guide-right {
+    position: absolute;
+    right: 0;
 }
