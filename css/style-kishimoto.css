@@ -141,3 +141,93 @@ body {
     line-height: 42px;
     font-weight: bold;
 }
+
+/* main */
+.MainContent {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.MainContent .MainContentTitle {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-left: 32px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.MainContentTitle:before {
+    content: "";
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 22px;
+    width: 22px;
+    background-image: url('../images/bg-heading-h2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+
+/* SNS */
+.MainContent .SNS ul {
+    width: 172px;
+    height: 34px;
+    margin: 0 0 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MainContent .SNS ul:first-child:before {
+    content: "Share";
+    font-size: 10px;
+    line-height: 1.5;
+    color: #333333;
+}
+.MainContent .SNS li {
+    list-style: none;
+}
+.MainContent .SNS img {
+    height: 24px;
+    width: 24px;
+}
+.MainContent .Margin {
+    margin-bottom: 40px;    
+}
+.MainContentTitle {
+    margin-bottom: 60px;
+}
+.Text {
+    font-size: 16px;
+    line-height: 1.875;
+    color: #333333;
+}
+.TextSpace {
+    margin-bottom: 46px;
+}
+.MainContent .ContentImage {
+    width: 100%;
+}
+.DigitalTransformation {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.pdf {
+    display: inline-block;
+    min-height: 30px;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #fff;
+    background: #005bac;
+    border: solid 1px #005bac;
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    outline: 0;
+}
