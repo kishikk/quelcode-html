@@ -259,6 +259,7 @@ body {
     display: flex;
     margin: 0 -10px;
     padding: 0 10px;
+    margin-bottom: 100px;
 }
 .guide a {
     text-decoration: none;
@@ -275,3 +276,13 @@ body {
     position: absolute;
     right: 0;
 }
+.StrongPoint {
+    background: #deecf8;
+    padding: 20px;
+}
+.Strongitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -10px;
+}        
