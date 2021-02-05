@@ -332,3 +332,260 @@ body {
 .Strongitem .below {
     height: 50px;
 }
+/* 各ページリンク */
+.footer {
+    border-top: 2px solid #333;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.CompanyInfo {
+    padding: 0;
+}
+.CompanyInfo_title {
+    padding: 18px 0 30px 0;
+    border-bottom: 1px dotted #999;
+}
+.CItitle {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.Management {
+    border-bottom: 1px dotted #999;
+    padding: 30px 0;
+}
+.Mtitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.Management ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.Management li {
+    list-style: none;
+    width: 220px;
+    margin: 20px 10px 0 10px;
+}
+.Management li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0c419a;
+}
+.Management li a:hover {
+    text-decoration: underline;
+}
+.Management li a:before {
+    content: "";
+    background: url(../images/icon-chevronRight.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
+.CorporateGuidance {
+    border-bottom: 1px dotted #999;
+    padding: 30px 0;
+}
+.CGtitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.CorporateGuidance ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.CorporateGuidance li {
+    list-style: none;
+    width: 220px;
+    margin: 20px 10px 0 10px;
+}
+.CorporateGuidance li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0c419a;
+}
+.CorporateGuidance li a:hover {
+    text-decoration: underline;
+}
+.CorporateGuidance li a:before {
+    content: "";
+    background: url(../images/icon-chevronRight.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
+.NRIStrong2 {
+    border-bottom: 1px dotted #999;
+    padding: 30px 0;
+}
+.NRIStitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.NRIStrong2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.NRIStrong2 li {
+    list-style: none;
+    width: 220px;
+    margin: 20px 10px 0 10px;
+}
+.NRIStrong2 li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0c419a;
+}
+.NRIStrong2 li a:hover {
+    text-decoration: underline;
+}
+.NRIStrong2 li a:before {
+    content: "";
+    background: url(../images/icon-chevronRight.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
+.NRIGroup {
+    border-bottom: 1px dotted #999;
+    padding: 30px 0;
+}
+.NRIGtitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.NRIGroup ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.NRIGroup li {
+    list-style: none;
+    width: 220px;
+    margin: 20px 10px 0 10px;
+}
+.NRIGroup li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0c419a;
+}
+.NRIGroup li a:hover {
+    text-decoration: underline;
+}
+.NRIGroup li a:before {
+    content: "";
+    background: url(../images/icon-chevronRight.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
+.BusinessDomain {
+    border-bottom: 1px dotted #999;
+    padding: 30px 0;
+}
+.BDtitle {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.BusinessDomain ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.BusinessDomain li {
+    list-style: none;
+    width: 220px;
+    margin: 20px 10px 0 10px;
+}
+.BusinessDomain li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0c419a;
+}
+.BusinessDomain li a:hover {
+    text-decoration: underline;
+}
+.BusinessDomain li a:before {
+    content: "";
+    background: url(../images/icon-chevronRight.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
+.guide2 {
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    margin: 50px 0 100px 0;
+    padding: 0 10px;
+}
+.guide2 a {
+    text-decoration: none;
+}
+.guide2 a:hover {
+    text-decoration: underline;
+}
+.guide-left2 {
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+
+/* フッター*/
+.footer_sns {
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0;
+}
+.footer_sns ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.footer_SNS li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.footer_sns img {
+    height: 28px;
+}
