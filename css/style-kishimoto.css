@@ -669,19 +669,16 @@ body {
     background-size: contain;
     vertical-align: middle;
 }
-.underline {
+
+.footerInfo {
     border-top: 1px solid #ccc;
 }
-.footerInfo {
-    width: 1000px;
-    margin: 50px auto 15px auto;
-}
 .footerInfo ul {
+    width: 1000px;
     font-size: 12px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    margin: 50px auto 15px auto;
+    text-align: center;
     align-items: center;
 }
 .footerInfo li {
@@ -690,16 +687,19 @@ body {
     font-size: 12px;
     color: #999999;
 }
-.footerInfoItem a {
+.footerInfo a {
     text-decoration: none;
     color: #999999;
 }
-.footerInfoItem a:hover {
+.footerInfo a:hover {
     text-decoration: underline;
 }
-.footerInfoItem a:before {
+.footerInfo li:before {
     content: "｜";
     margin-right: 12px;
+}
+.footerInfo li:first-child:before {
+    content: none;
 }
 .copyright {
     max-width: 1000px;
