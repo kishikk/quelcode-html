@@ -58,6 +58,7 @@ body {
     align-items: center;
 }
 .nav-sec li {
+    margin: auto;
     height: 60px;
     width: 60px;
     cursor: pointer;
@@ -68,21 +69,22 @@ body {
     background: white;
     height: 60px;
     width: 60px;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.nev-sec .menu span {
+.nav-sec .menu span {
     border-bottom: 2px solid black;
-    width: 20px;
-    margin: 0 auto;
+    width: 30px;
+    margin: auto;
 }
-.nev-sec .menu span:nth-child(1) {
+.nav-sec .menu span:nth-child(1) {
     border-bottom-color: black;
 }
-.nev-sec .menu span:nth-child(2) {
+.nav-sec .menu span:nth-child(2) {
     border-bottom-color: black;
 }
-.nev-sec .menu span:nth-child() {
+.nav-sec .menu span:nth-child(3) {
     border-bottom-color: black;
 }
 
@@ -580,7 +582,7 @@ body {
     padding: 0;
     justify-content: center;
 }
-.footer_SNS li {
+.footer_sns ul li {
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
@@ -588,4 +590,122 @@ body {
 }
 .footer_sns img {
     height: 28px;
+}
+
+/* サイトマップ */
+.footerTop {
+    width: 1000px;
+    margin: 0 auto;
+    margin: 40px auto 70px auto;
+}
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+.middle{
+    margin-top: 80px;
+}
+.below {
+    margin-top: 80px;
+}
+.footerItem {
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 225px;
+}
+.itemTitle {
+    padding-bottom: 10px;
+}
+.itemTitle a {
+    display: block;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #333333;
+    text-decoration: none;
+}
+.itemTitle a:hover {
+    text-decoration: underline;
+}
+.itemTitle a:before {
+    content: "";
+    display: inline-block;
+    margin: 0 6px 0 0;
+    padding: 0;
+    height: 8px;
+    width: 8px;
+    background-image: url('../images/icon-chevronRight.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.footerItem ul {
+    padding: 0;
+    margin: 0;
+}
+.footerItem ul:first-child {
+    padding-top: 13px;
+}
+.footerItem li {
+    list-style: none;
+    padding-bottom: 16px;
+}
+.footerItem li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666666;
+}
+.footerItem li a:before {
+    content: "";
+    display: inline-block;
+    margin: 0 6px 0 0;
+    padding: 0;
+    height: 8px;
+    width: 8px;
+    background-image: url('../images/icon-chevronRight.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.underline {
+    border-top: 1px solid #ccc;
+}
+.footerInfo {
+    width: 1000px;
+    margin: 50px auto 15px auto;
+}
+.footerInfo ul {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.footerInfo li {
+    list-style: none;
+    margin: 0 12px 5px 0;
+    font-size: 12px;
+    color: #999999;
+}
+.footerInfoItem a {
+    text-decoration: none;
+    color: #999999;
+}
+.footerInfoItem a:hover {
+    text-decoration: underline;
+}
+.footerInfoItem a:before {
+    content: "｜";
+    margin-right: 12px;
+}
+.copyright {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 10px;
+    color: #999999;
+    padding-top: 10px;
+    padding-bottom: 100px;
 }
